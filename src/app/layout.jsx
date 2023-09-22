@@ -1,6 +1,5 @@
 import Image from "next/image";
 import "./globals.css";
-import "./login.css";
 import logo from "../../public/logo.svg";
 
 export default function RootLayout({ children }) {
