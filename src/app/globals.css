@@ -2,11 +2,41 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 
-*{
+* {
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
+.background-image {
+  background-image: url("../../public/background.png");
+  background-size: cover;
+}
+
+.background-section {
+  background-image: url("../../public/back.png");
+  background-size: cover;
+}
+
+.intro {
+  background-image: url("../../public/back.png");
+  background-size: cover;
+}
+
+.background-card{
+  background-image: url("../../public/card.png");
+  background-size: cover;
+}
+
+.glass {
+  border: 1px solid rgba(255, 255, 255, 0.47);
+  background: rgba(255, 255, 255, 0.31);
+  backdrop-filter: blur(8.399999618530273px);
+}
+
+.background-slide{
+  background-image: url("../../public/card-slider.png");
+  background-size: cover;
+}
