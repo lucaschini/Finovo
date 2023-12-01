@@ -7,7 +7,11 @@ module.exports = {
   ],
   theme: {
     extend: {
-      
+      colors: {
+        'mainPurple': '#421EA3',
+        'glassStart': '#ffffff9c',
+        'glassEnd': '#ffffff1a',
+      },
     },
   },
   plugins: [],

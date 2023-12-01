@@ -1,0 +1,13 @@
+.layout {
+  background: var(
+    --background-dark,
+    linear-gradient(
+      170deg,
+      rgba(97, 61, 193, 0.2) 0%,
+      rgba(97, 61, 193, 0.12) 46.35%,
+      rgba(97, 61, 193, 0.06) 80.21%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    #000
+  );
+}

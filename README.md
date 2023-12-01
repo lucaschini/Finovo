@@ -1,34 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# FINOVO 🐷
 
-## Getting Started
+Bem-vindo ao repositório do site comercial do Finovo! Este repositório contém o código-fonte e os recursos do site oficial do Finovo, uma plataforma de gestão financeira pessoal. O site é projetado para fornecer informações sobre os recursos, funcionalidades e benefícios do Finovo.
 
-First, run the development server:
+## Sobre o Finovo 💡
+O Finovo é uma plataforma inovadora que ajuda indivíduos a gerenciar suas finanças pessoais de maneira eficiente, alcançar seus objetivos financeiros e construir um futuro financeiro sólido. Ele oferece uma variedade de recursos, desde gestão de investimentos até planejamento financeiro detalhado.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Recursos do Site 🚀🔍
+**Visão Geral:** Saiba mais sobre os recursos-chave do Finovo e como ele pode ajudar você a ter controle total sobre suas finanças.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Sobre nós:** Conheça a história do Finovo e de seus criadores
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+**Objetivos:** Descubra quais são os objetivos do Finovo e como ele pode te ajudar
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+**Simulador de investimentos:** Calcule quanto dinheiro você pode atingir investindo da maneira correta
 
-## Learn More
+## Como Usar 🌐
+Para acessar o site comercial do Finovo, basta aguardar que em breve disponibilizaremos o link.
 
-To learn more about Next.js, take a look at the following resources:
+## Contato 📬
+Se você tiver alguma dúvida, sugestão ou feedback, sinta-se à vontade para entrar em contato conosco nos seguintes emails:
+lucaschinimendonca@protonmail.com ou 
+micaelpinardi@gmail.com
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Esperamos que você encontre o site comercial do Finovo informativo e inspirador! 😊🌟
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
