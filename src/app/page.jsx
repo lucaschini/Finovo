@@ -10,7 +10,6 @@ import facil from "../../public/facil.png";
 import gestao from "../../public/gestao.png";
 
 import Card from "@/components/Card";
-import Func from "@/components/Func";
 
 export const metadata = {
   title: "Finovo",
@@ -104,7 +103,6 @@ export default function Index() {
         <h2 className="text-[90px] font-bold text-center">
           Funções Essenciais
         </h2>
-        <Func />
       </div>
 
       <div className="bg-[#1B1C1E] py-11 flex flex-col items-center" id="sobre">
