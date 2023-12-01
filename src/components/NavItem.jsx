@@ -6,7 +6,7 @@ import { usePathname} from 'next/navigation';
 export default function NavItem(props){
     const pathname = usePathname();
 
-    const back = 'py-3 rounded-[20px] shadow-md bg-white text-mainPurple'
+    const back = 'py-3 rounded-[20px] shadow-md bg-[#D9D9D9] text-mainPurple font-semibold'
 
     const active = `${pathname == props.path ? back : '' }`
 
