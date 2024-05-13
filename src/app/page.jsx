@@ -44,7 +44,7 @@ export default function Index() {
       </div>
 
       <div className="flex flex-col justify-center items-center gap-8 h-[700px] bg-darkBg">
-        <h2 className=" text-3xl sm:text-[90px] font-bold">FÁCIL, SIMPLES E INTUITIVO</h2>
+        <h2 className=" text-2xl sm:text-[90px] font-bold">FÁCIL, SIMPLES E INTUITIVO</h2>
         <p className="text-xl sm:text-[32px] whitespace-pre-line w-2/4 text-center">
           Experimente a simplicidade e rapidez incomparáveis do FINOVO. Deixe
           sua vida financeira em nossas mãos 🤝
@@ -69,15 +69,15 @@ export default function Index() {
         <div className="flex justify-around items-center w-3/4 gap-8 mt-16">
           <div className='flex flex-col gap-8'>
             
-              <h2 className="text-[40px] font-bold">O que é finovo?</h2>
-              <p className="text-[20px]">
+              <h2 className="text-[40px] font-bold text-center sm:text-left">O que é finovo?</h2>
+              <p className="text-[20px] text-center sm:text-left">
                 Finovo é um aplicativo de gestão financeira que tem em seu
                 principal objetivo orientar pessoas sem estudo do assunto. Nosso
                 lema é deixar a vida do cidadão com menos preucupações do que já
                 existem
               </p>
-              <h2 className="text-[40px] font-bold">Como surgimos? </h2>
-              <p className="text-[20px]">
+              <h2 className="text-[40px] font-bold text-center sm:text-left">Como surgimos? </h2>
+              <p className="text-[20px] text-center sm:text-left">
                 Inicialmente surgimos com a intenção de ajudar as pessoas a se
                 planejar financeiramente, como um projeto de TCC (Trabalho de
                 Conclusão de Curso) do Curso Técnico em Informática para Internet,
