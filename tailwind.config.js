@@ -19,7 +19,7 @@ module.exports = {
         'deleteApagado': '#B22A2A',
         'deleteForte': '#760000',
         'input': '#D9D9D9',
-        'hero': '#613DC1',
+        'hero': '#7F28B9',
 
       },
     },

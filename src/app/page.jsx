@@ -16,8 +16,8 @@ export const metadata = {
 export default function Index() {
   return (
     <div className="bg-hero text-white">
-      <header className="flex items-center py-6 px-16 justify-center">
-        <Image src={logo} width={170} alt="logo-finovo"></Image>
+      <header className="flex items-center py-6 px-16 sm:justify-center">
+        <Image src={logo} objectFit="cover" alt="logo-finovo" className="w-[170px]"></Image>
         
         <Link
           href="/login"
@@ -27,8 +27,8 @@ export default function Index() {
         </Link>
       </header>
 
-      <div className="flex flex-col items-center justify-center h-screen">
-          <h1 className="font-bold text-[90px] text-center">
+      <div className="flex flex-col items-center justify-center gap-4 h-screen">
+          <h1 className="font-bold text-5xl sm:text-[90px] text-center">
           Controle financeiro descomplicado
           </h1>
           <p className="text-[32px] w-3/4 text-center">
@@ -44,15 +44,15 @@ export default function Index() {
       </div>
 
       <div className="flex flex-col justify-center items-center gap-8 h-[700px] bg-darkBg">
-        <h2 className="text-[90px] font-bold">FÁCIL, SIMPLES E INTUITIVO</h2>
-        <p className="text-[32px] whitespace-pre-line w-2/4 text-center">
+        <h2 className=" text-3xl sm:text-[90px] font-bold">FÁCIL, SIMPLES E INTUITIVO</h2>
+        <p className="text-xl sm:text-[32px] whitespace-pre-line w-2/4 text-center">
           Experimente a simplicidade e rapidez incomparáveis do FINOVO. Deixe
           sua vida financeira em nossas mãos 🤝
         </p>
       </div>
 
       <div className="flex flex-col gap-8 items-center py-11 bg-input text-darkBg" id="obj">
-        <h2 className="text-[90px] font-bold text-center text-textDestaque">Nossos objetivos</h2>
+        <h2 className="text-4xl sm:text-[90px] font-bold text-center text-textDestaque">Nossos objetivos</h2>
         <div className='flex justify-arround items-center gap-10 my-16'>
           <div className='flex flex-col gap-5'>
           <Image src={controle} width={0} alt="logo-finovo"></Image>
@@ -64,7 +64,7 @@ export default function Index() {
       </div>
 
       <div className="bg-darkBg py-11 flex flex-col items-center" id="sobre">
-        <h2 className="text-[90px] font-bold text-center">Sobre nós</h2>
+        <h2 className="text-6xl sm:text-[90px] font-bold text-center">Sobre nós</h2>
 
         <div className="flex justify-around items-center w-3/4 gap-8 mt-16">
           <div className='flex flex-col gap-8'>
@@ -84,7 +84,6 @@ export default function Index() {
                 feito pelos alunos Lucas Chini, Micael Pinardi e Rafael Furian.
               </p>
           </div>
-        <Image src={porcoSobre} width={500} alt="logo-finovo"/>
         </div>
         <Image src={logo} width={170} alt="logo-finovo" className='mt-20'/>
       </div>
