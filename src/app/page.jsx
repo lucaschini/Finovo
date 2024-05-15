@@ -2,11 +2,10 @@ import Link from "next/link";
 import Image from "next/image";
 
 import logo from "../../public/logo1.png";
-import porcoSobre from "../../public/porco-sobre.png";
 
-import melhoria from "../../public/melhoria.png";
-import facilidade from "../../public/facilidade.png";
-import controle from "../../public/controle.png";
+import melhoria from "../../public/melhoria.svg";
+import facilidade from "../../public/facilidade.svg";
+import controle from "../../public/controle.svg";
 
 export const metadata = {
   title: "Finovo",
@@ -41,38 +40,58 @@ export default function Index() {
         </p>
         <Link
           href="/create"
-          className="mt-10 px-10 py-5 w-56 justify-center flex font-semibold glass rounded-full text-2xl"
+          className="mt-10 px-10 py-5 w-60 justify-center flex font-semibold glass rounded-full text-2xl"
         >
           Abrir conta
         </Link>
       </div>
 
-      <div className="flex flex-col justify-center items-center gap-8 h-[700px] bg-darkBg">
+      <div className="flex flex-col justify-center items-center gap-10 h-[700px] bg-darkBg">
         <h2 className=" text-2xl sm:text-[90px] font-bold">
           FÁCIL, SIMPLES E INTUITIVO
         </h2>
-        <p className="text-xl sm:text-[32px] whitespace-pre-line w-2/4 text-center">
+        <p className="text-xl sm:text-[32px] whitespace-pre-line w-2/4 text-center gap-4">
           Experimente a simplicidade e rapidez incomparáveis do FINOVO. Deixe
           sua vida financeira em nossas mãos 🤝
         </p>
       </div>
 
       <div
-        className="flex flex-col gap-8 items-center py-11 bg-input text-darkBg"
+        className="flex flex-col gap-8 items-center py-20 bg-input text-darkBg"
         id="obj"
       >
         <h2 className="text-4xl sm:text-[90px] font-bold text-center text-textDestaque">
           Nossos objetivos
         </h2>
-        <div className="flex justify-arround items-center gap-10 my-16">
-          <div className="flex flex-col gap-5">
+        <div className="flex flex-col sm:flex-row justify-arround items-center gap-10 my-16 px-12">
+          <div className="flex flex-col gap-5 items-center text-center">
             <Image src={controle} width={0} alt="logo-finovo"></Image>
+            <h2 className="text-3xl font-bold">Controle Financeiro Eficiente</h2>
+            <p>
+              Permite que os usuários do Finovo tenham um controle claro e
+              detalhado de suas finanças, ajudando na organização,
+              acompanhamento de gastos e receitas, e facilitando o entendimento
+              de seu cenário financeiro geral.
+            </p>
           </div>
-          <div className="flex flex-col gap-5">
+          <div className="flex flex-col gap-5 items-center text-center">
             <Image src={melhoria} width={0} alt="logo-finovo"></Image>
+            <h2 className="text-3xl font-bold">Melhoria Na Saúde Financeira</h2>
+            <p>
+              Oferecer ferramentas e insights para que os usuários possam
+              gerenciar e reduzir suas dívidas, ajudando a promover uma melhor
+              saúde financeira e equilíbrio no orçamento pessoal.
+            </p>
           </div>
-          <div className="flex flex-col gap-5">
+          <div className="flex flex-col gap-5 items-center text-center">
             <Image src={facilidade} width={0} alt="logo-finovo"></Image>
+            <h2 className="text-3xl font-bold">Facilidade Na Gestão</h2>
+            <p>
+              Possibilitar aos usuários a administração inteligente de seus
+              investimentos, fornecendo informações relevantes, análises e
+              recursos para que possam tomar decisões informadas e maximizar seu
+              potencial de investimento.
+            </p>
           </div>
         </div>
       </div>
