@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import logo from "../../../../public/logo.svg";
-import Seta from "../../../../public/iconContinuar.png";
+import Seta from "../../../../public/seta.svg";
 
 export const metadata = {
   title: "Insira o código",
