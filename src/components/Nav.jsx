@@ -2,8 +2,8 @@ import NavItem from "./NavItem";
 
 import { LuHome, LuWallet } from "react-icons/lu";
 import { BiMoney } from "react-icons/bi";
-import { TbTargetArrow ,TbCurrencyDollarOff } from "react-icons/tb";
-import { BsCalendar, BsListCheck, BsAirplaneFill } from "react-icons/bs";
+import { TbTargetArrow } from "react-icons/tb";
+import { BsCalendar, BsListCheck } from "react-icons/bs";
 
 
 export default function Nav(){
@@ -15,8 +15,6 @@ export default function Nav(){
             <NavItem path='/contas'><LuWallet /> Contas</NavItem>
             <NavItem path='/planejamento'><BsListCheck /> Planejamento</NavItem>
             <NavItem path='/calendario'><BsCalendar /> Calendario</NavItem>
-            <NavItem path='/dividas'><TbCurrencyDollarOff /> Dividas</NavItem>
-            <NavItem path='/viagem'><BsAirplaneFill /> Modo Viagem</NavItem>
         </div>
     )
 }
