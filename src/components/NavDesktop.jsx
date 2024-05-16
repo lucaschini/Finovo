@@ -6,7 +6,7 @@ import { TbTargetArrow } from "react-icons/tb";
 import { BsCalendar, BsListCheck } from "react-icons/bs";
 
 
-export default function Nav(){
+export default function NavDesktop(){
     return(
         <div className="flex flex-col justify-around items-center gap-4">
             <NavItem path='/home'><LuHome /> Página Inicial</NavItem>

@@ -6,6 +6,9 @@ import logo from "../../public/logo1.png";
 import melhoria from "../../public/melhoria.svg";
 import facilidade from "../../public/facilidade.svg";
 import controle from "../../public/controle.svg";
+import celular from "../../public/celular.svg"
+import direitaBlob from "../../public/direitaBlob.svg"
+import esquerdaBlob from "../../public/esquerdaBlob.svg"
 
 export const metadata = {
   title: "Finovo",
@@ -46,11 +49,17 @@ export default function Index() {
         </Link>
       </div>
 
-      <div className="flex flex-col justify-center items-center gap-10 h-[700px] bg-darkBg">
-        <h2 className=" text-2xl sm:text-[90px] font-bold">
+      <div className="flex flex-col items-center gap-20 pt-20 pb-8 bg-darkBg w-full ">
+        <h2 className=" text-3xl xl:text-[90px] font-bold">
           FÁCIL, SIMPLES E INTUITIVO
         </h2>
-        <p className="text-xl sm:text-[32px] whitespace-pre-line w-2/4 text-center gap-4">
+        
+        <div className="flex w-full justify-between">
+          <Image src={esquerdaBlob} width={0} alt="logo-finovo" className="hidden xl:block"></Image>
+          <Image src={celular} width={0} alt="logo-finovo"></Image>
+          <Image src={direitaBlob} width={0} alt="logo-finovo" className="hidden xl:block"></Image>
+        </div>
+        <p className="text-xl sm:text-[32px] w-[80%] text-center line">
           Experimente a simplicidade e rapidez incomparáveis do FINOVO. Deixe
           sua vida financeira em nossas mãos 🤝
         </p>
