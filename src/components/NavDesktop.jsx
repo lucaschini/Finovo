@@ -1,4 +1,4 @@
-import NavItem from "./NavItem";
+import NavItem from "@/NavItem";
 
 import { LuHome, LuWallet } from "react-icons/lu";
 import { BiMoney } from "react-icons/bi";

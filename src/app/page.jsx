@@ -1,14 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import logo from "../../public/logo1.png";
-
-import melhoria from "../../public/melhoria.svg";
-import facilidade from "../../public/facilidade.svg";
-import controle from "../../public/controle.svg";
-import celular from "../../public/celular.svg"
-import direitaBlob from "../../public/direitaBlob.svg"
-import esquerdaBlob from "../../public/esquerdaBlob.svg"
 
 export const metadata = {
   title: "Finovo",
@@ -20,7 +12,8 @@ export default function Index() {
     <div className="bg-hero text-white">
       <header className="flex items-center py-6 px-16 sm:justify-center">
         <Image
-          src={logo}
+          src="/logo1.png"
+          fill
           objectFit="cover"
           alt="logo-finovo"
           className="w-[170px] static"
@@ -55,9 +48,9 @@ export default function Index() {
         </h2>
         
         <div className="flex w-full justify-between">
-          <Image src={esquerdaBlob} width={0} alt="logo-finovo" className="hidden xl:block"></Image>
-          <Image src={celular} width={0} alt="logo-finovo"></Image>
-          <Image src={direitaBlob} width={0} alt="logo-finovo" className="hidden xl:block"></Image>
+          <Image src="/esquerdaBlob.svg" fill alt="logo-finovo" className="hidden xl:block"></Image>
+          <Image src="/celular.svg" fill alt="logo-finovo"></Image>
+          <Image src="/direitaBlob.svg" fill alt="logo-finovo" className="hidden xl:block"></Image>
         </div>
         <p className="text-xl sm:text-[32px] w-[80%] text-center line">
           Experimente a simplicidade e rapidez incomparáveis do FINOVO. Deixe
@@ -74,7 +67,7 @@ export default function Index() {
         </h2>
         <div className="flex flex-col sm:flex-row justify-arround items-center gap-10 my-16 px-12">
           <div className="flex flex-col gap-5 items-center text-center">
-            <Image src={controle} width={0} alt="logo-finovo"></Image>
+            <Image src="controle.svg" fill alt="logo-finovo"></Image>
             <h2 className="text-3xl font-bold">Controle Financeiro Eficiente</h2>
             <p>
               Permite que os usuários do Finovo tenham um controle claro e
@@ -84,7 +77,7 @@ export default function Index() {
             </p>
           </div>
           <div className="flex flex-col gap-5 items-center text-center">
-            <Image src={melhoria} width={0} alt="logo-finovo"></Image>
+            <Image src="melhoria.svg" fill alt="logo-finovo"></Image>
             <h2 className="text-3xl font-bold">Melhoria Na Saúde Financeira</h2>
             <p>
               Oferecer ferramentas e insights para que os usuários possam
@@ -93,7 +86,7 @@ export default function Index() {
             </p>
           </div>
           <div className="flex flex-col gap-5 items-center text-center">
-            <Image src={facilidade} width={0} alt="logo-finovo"></Image>
+            <Image src="facilidade.svg" fill alt="logo-finovo"></Image>
             <h2 className="text-3xl font-bold">Facilidade Na Gestão</h2>
             <p>
               Possibilitar aos usuários a administração inteligente de seus
@@ -132,7 +125,7 @@ export default function Index() {
             </p>
           </div>
         </div>
-        <Image src={logo} width={170} alt="logo-finovo" className="mt-20" />
+        <Image src="/logo1.png" width={170} height={200} alt="logo-finovo" className="mt-20" />
       </div>
     </div>
   );
